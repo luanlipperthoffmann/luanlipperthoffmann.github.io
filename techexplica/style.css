@@ -45,8 +45,8 @@ header {
 
     /*ESTRUTURA DO TEXTO*/
 section {
-        max-width: 700px; /**/
-        max-height: 700px; /**/
+        max-width: 700px; 
+        max-height: 700px; 
         float: left;
         margin: 10px 250px 50px 50px;
     }
@@ -62,7 +62,7 @@ section {
         height: 150px;
         background-position: 0 auto; 
         float: right;
-        padding-left: 10px; /**/
+        padding-left: 10px; 
 
     }
 
@@ -71,8 +71,8 @@ section {
         max-height: 700px;
         float: right;
         text-align: left;
-        margin: 10px -480px 0px 50px; /**/
-        padding-top: 30px; /**/
+        margin: 10px -480px 0px 50px; 
+        padding-top: 30px; 
     }
      
     .imageAside{
@@ -81,13 +81,13 @@ section {
         background-position: 0 auto; 
         border-radius: 50%;
         float: right;
-        padding-left: 10px; /**/
+        padding-left: 10px; 
     }
     
     h4{
         text-align: center;
         font-size: 16px;
-        padding-top: 50px; /**/
+        padding-top: 50px; 
     }
 
     h5{
@@ -95,23 +95,23 @@ section {
         font-style: italic;
         color: rgb(10, 104, 10);
         text-decoration: underline;
-        padding-top: 30px; /**/
+        padding-top: 30px;
     }
 
     p{
-        text-align: justify; /**/
+        text-align: justify;
     }
 
     .espaco{
         clear: both;
     }
     
-    a{                         /**/
+    a{                         
         color: black;
         text-decoration: none;
     }
 
-    aside a{                  /**/
+    aside a{                  
         color: rgb(10, 104, 10);
     }
     
@@ -123,7 +123,7 @@ footer {
     padding: 10px 20px 10px 20px; 
 } 
 
-footer h1{               /**/
+footer h1{               
     padding-top: 10px;
     text-align: center;
 }
@@ -132,24 +132,24 @@ footer h1{               /**/
 .iconeContato{
     height: 22px;
     width: 22px;
-    padding-right: 10px; /**/
-    padding-top: 3px; /**/
+    padding-right: 10px; 
+    padding-top: 3px; 
 }
 
 .footerLeft{
-    width: 500px; /**/
+    width: 500px; 
     float: left;
     text-align: center;
     padding: 0px 250px 0px 40px;
 }
 
-.footerLeft p{           /**/
+.footerLeft p{           
     text-align: center;
     padding-top: 5px;
 }
 
 .footerRigth{
-    width: 200px; /**/
+    width: 200px; 
     float: right;
     text-align: left;
 }   
