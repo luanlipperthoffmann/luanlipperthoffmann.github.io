@@ -1,0 +1,10 @@
+.imagem-carrossel{
+    object-fit: cover;
+    object-position: 10% -10%;
+    height: 450px;
+}
+h2{
+    color:red;
+    font-weight: bolder;
+    font-family: 'Indie Flower', cursive;
+}
