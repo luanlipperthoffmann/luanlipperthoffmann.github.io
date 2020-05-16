@@ -3,7 +3,9 @@
 }
 
 #tamanho{
-    width: 800px;
-    height: 500px;
-
+    top: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 700px;
+    height: 400px;
 }
