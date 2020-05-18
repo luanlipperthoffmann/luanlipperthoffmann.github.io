@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <!--CABEÇALHO-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Explica v2.0</title>
-  <link rel="stylesheet" href="css/style.css">
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="js/bootstrap.min.js">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="js/jquery-3.5.1.min.js">
+  
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
-
-<body>
-<!--NAVBAR-->
-  <div class=" container">
+<body style="background: lightskyblue;">
+  <!--NAVBAR-->
+  <div class=" container-md">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark font-italic font-weight-bolder fixed-top">
       <!-- Brand -->
-      <a class="navbar-collapse nav-link  text-warning fonte" href="#">TECH EXPLICA</a>
+      <a class="navbar-collapse nav-link  text-warning" style="font-size: 30px;" href="#">TECH EXPLICA</a>
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -41,67 +39,96 @@
         </ul>
       </div>
       <form class="form-inline" action="/action_page.php">
-        <input class="form-control mr-sm-2" type="text" placeholder="&shy O que voçê deseja? ...">
+        <input class="form-control"  type="text" placeholder="O que voçê deseja? ...">
         <button class="btn btn-danger" type="submit">Pesquisar</button>
       </form>
     </nav> 
   </div>
-<!--CAROUSEL-->
-<div class="container">
-  <div class="row">
-     <div class="col"></div>
-        <div class="col-6">
-          <div id="demo" class="carousel slide position-absolute" data-ride="carousel">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/dual_sense.jpg" id="tamanho" alt="controle ps5">
-                  <p class=" carousel-caption font-weight-bolder">SONY REVELA CONTROLE DO PS5</p>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/foxconn.jpg"id="tamanho" alt="foxconn">
-                  <p class=" carousel-caption font-weight-bolder">NOVOS RESPIRADORES EM PARCERIA</p>
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/pixel.jpg" id="tamanho" alt="sony">
-                  <p class=" carousel-caption font-weight-bolder">PIXEL PODERÁ TER PROCESSADOR PRÓPRIO</p>
-              </div>
-            </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
+  <!--CAROUSEL-->
+  <div class="container-md">
+    <div class="row justify-content-center" style=" padding-top: 100px;">
+      <div id="demo" class="carousel slide position-absolute" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="assets/images/dual_sense.jpg"  style="width: 700px; height: 400px;" alt="controle ps5">
+            <p class=" carousel-caption font-weight-bolder">SONY REVELA CONTROLE DO PS5</p>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/foxconn.jpg"  style="width: 700px; height: 400px;" alt="foxconn">
+            <p class=" carousel-caption font-weight-bolder">NOVOS RESPIRADORES EM PARCERIA</p>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/pixel.jpg"  style="width: 700px; height: 400px;" alt="sony">
+            <p class=" carousel-caption font-weight-bolder">PIXEL PODERÁ TER PROCESSADOR PRÓPRIO</p>
           </div>
         </div>
-        <div class="col"></div>
-     </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
   </div>
-  
+  <!--CORPO DO TEXTO-->
+  <div class="container">
+    <div class="row justify-content-center" style="margin-top: 450px;">
+      <!--TEXTO A  DIREITA-->
+      <div class= "cols-8-md m-5" style="width: 500px; height: 500px; text-align: center; background-color: lightskyblue;">
+        <div>
+          <img class="rounded float-left img-fluid "  src="assets/images/dual_sense.jpg" alt="controle">
+          <h5><a href="https://estudionerd.com.br/games/dual-sense-conheca-o-controle-do-playstation-5/" target="blank" title=" Estudio Nerd">SONY REVELA CONTROLE DO PS5</a></h5>
+          <p>Controle com o novo formato deixará de se  chamar dualshock, para se chamar <b>dual sense</b>!</p>
+        </div> <br>
 
-<!--CORPO DO TEXTO-->
-  <section>
+        <div>
+          <img class="rounded float-left img-fluid " src="assets/images/foxconn.jpg" alt="foxconn">
+          <h5><a href="https://canaltech.com.br/saude/foxconn-e-medtronic-se-unem-para-fabricar-respiradores-mecanicos-para-os-eua-163071/" target="blank" title="Canal Tech">NOVOS RESPIRADORES EM PARCERIA</a> </h5>
+          <p>Foxconn vai fabricar respiradores nos EUA em parceria  com empresa  americana Medtronic!</p> <br>
+        </div> <br>
 
-    <!--Texto à direira-->
-     
-    
-    <!--Texto à esquerda-->
-    <aside>
-       
-    </aside>
-  </section>
+        <div>
+          <img class="rounded float-left img-fluid " src="assets/images/pixel.jpg" alt="google pixel">
+          <h5><a href="https://www.tecmundo.com.br/produto/152055-google-trabalhando-processador-proprio-pixel-rumor.htm" target="blank" title="Tec Mundo">PIXEL PODERÁ TER PROCESSADOR PRÓPRIO</a></h5>
+          <p>Google estária trabalhando em processador próprio para google pixel. </p>
+        </div>
+      </div>
+      <!--TEXTO A ESQUERDA-->
+      <div class="cols-4-md m-5" style="width: 350px; height: 350px; text-align: center; background-color: lightskyblue;">
+        <div>
+          <img class="rounded-circle img-fluid " src="assets/images/youtube.jpeg" alt="youtube">
+          <h5><a href="https://www.tecmundo.com.br/redes-sociais/152076-youtube-lanca-ferramenta-gratuita-criacao-anuncios.htm" target="blank" title="Tec Mundo">FERRAMENTA PARA CRIAÇÃO DE VIDEO</a></h5>
+          <p>O recurso gratuito permite transformar imagens estáticas,  logos e textos em vídeos curtos.</p>
+        </div> <br>
 
-<!--RODAPÈ-->
-    <footer>
-       
-    </footer>
+        <div>
+          <img class="rounded-circle img-fluid " src="assets/images/zoom.jpg" alt="app zoon">
+            <h5><a href="https://www.uol.com.br/tilt/noticias/redacao/2020/04/01/zoom-deixa-usuarios-vulneraveis-a-roubos-de-senhas-ao-clicarem-em-links.htm" target="blank" title=" Uol">ZOOM PERDE USUARIOS</a></h5>
+            <p>Problemas com privacidade prejudicaram sua reputação.</p>
+        </div> <br>
+
+        <div>
+          <img class="rounded-circle img-fluid " src="assets/images/xiaomi.jpeg" alt="app zoon">
+          <h5><a href="https://www.tecmundo.com.br/produto/152097-xiaomi-lanca-redmi-airdots-s-nova-geracao-fones-fio.htm" target="blank" title="Tec Mundo">NOVO REDMI AIRDOTS S</a></h5>
+          <p>Xiaomi lança Redmi AirDots S, sua nova geração de fones sem fio.</p>
+        </div> <br>
+
+        <div>
+          <img class="rounded-circle img-fluid" src="assets/images/RaspberryPi.jpg" alt="app zoon">
+          <h5><a href="https://www.tecmundo.com.br/ciencia/152115-raspberry-pi-us-5-equipa-respirador-combater-covid-19.htm" target="blank" title="Tec Mundo">RASPBERRY PI X COVID-19</a></h5>
+          <p>Raspberry Pi de US$ 5 equipa respirador para combater covid-19. </p>
+        </div>
+      </div>
+    </div>
+  </div> 
 </body>
 </html>
